@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "53757425759",
+    "project_id": "hackatonmapa",
+    "storage_bucket": "hackatonmapa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53757425759:android:6a386c4b12aefcd4be43ea",
+        "android_client_info": {
+          "package_name": "com.hackaton.prototipopplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF6KLpMX7OODzgUIG-tnJKkSFxk48UP4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
