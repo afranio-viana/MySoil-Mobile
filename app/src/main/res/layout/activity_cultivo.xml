@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CultivoActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="MySoil"
+        android:textColor="@color/background_color"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/areaFazenda"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="Área de Fazenda"
+        android:inputType="text"
+        android:scrollbarThumbHorizontal="@color/background_color"
+        android:scrollbarThumbVertical="@color/background_color"
+        android:scrollbarTrackHorizontal="@color/background_color"
+        android:scrollbarTrackVertical="@color/background_color"
+        android:textColor="@color/background_color"
+        android:textColorHint="@color/background_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <EditText
+        android:id="@+id/desejaPlantar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="O que deseja plantar?"
+        android:inputType="text"
+        android:scrollbarThumbHorizontal="@color/background_color"
+        android:scrollbarThumbVertical="@color/background_color"
+        android:scrollbarTrackHorizontal="@color/background_color"
+        android:scrollbarTrackVertical="@color/background_color"
+        android:textColor="@color/background_color"
+        android:textColorHint="@color/background_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/areaFazenda" />
+
+    <EditText
+        android:id="@+id/rotacaoPlantio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="Rotação do Plantio"
+        android:inputType="text"
+        android:scrollbarThumbHorizontal="@color/background_color"
+        android:scrollbarThumbVertical="@color/background_color"
+        android:scrollbarTrackHorizontal="@color/background_color"
+        android:scrollbarTrackVertical="@color/background_color"
+        android:textColor="@color/background_color"
+        android:textColorHint="@color/background_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desejaPlantar" />
+
+    <EditText
+        android:id="@+id/manejoResiduos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="Métodos de Manejo de Resíduis"
+        android:inputType="text"
+        android:scrollbarThumbHorizontal="@color/background_color"
+        android:scrollbarThumbVertical="@color/background_color"
+        android:scrollbarTrackHorizontal="@color/background_color"
+        android:scrollbarTrackVertical="@color/background_color"
+        android:textColor="@color/background_color"
+        android:textColorHint="@color/background_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rotacaoPlantio" />
+
+    <EditText
+        android:id="@+id/plantioColheita"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="Datas Importantes (Plantio e Colheita)"
+        android:inputType="text"
+        android:scrollbarThumbHorizontal="@color/background_color"
+        android:scrollbarThumbVertical="@color/background_color"
+        android:scrollbarTrackHorizontal="@color/background_color"
+        android:scrollbarTrackVertical="@color/background_color"
+        android:textColor="@color/background_color"
+        android:textColorHint="@color/background_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/manejoResiduos" />
+
+    <EditText
+        android:id="@+id/irrigacaoFertilizacao"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="Irrigação e Fertilização"
+        android:inputType="text"
+        android:scrollbarThumbHorizontal="@color/background_color"
+        android:scrollbarThumbVertical="@color/background_color"
+        android:scrollbarTrackHorizontal="@color/background_color"
+        android:scrollbarTrackVertical="@color/background_color"
+        android:textColor="@color/background_color"
+        android:textColorHint="@color/background_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/plantioColheita" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="Cadastro do Plano de Cultivo"
+        android:textColor="@color/background_color"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_itens"
+        android:fontFamily="@font/inter_bold"
+        android:onClick="insertPlantacao"
+        android:text="Salvar"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/irrigacaoFertilizacao" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/mundo_home2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

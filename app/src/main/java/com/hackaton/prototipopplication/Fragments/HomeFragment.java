@@ -1,6 +1,7 @@
 package com.hackaton.prototipopplication.Fragments;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
@@ -23,6 +24,7 @@ import com.google.firebase.firestore.FirebaseFirestoreException;
 import com.google.firebase.firestore.FirebaseFirestoreSettings;
 import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.QuerySnapshot;
+import com.hackaton.prototipopplication.CultivoActivity;
 import com.hackaton.prototipopplication.MainActivity;
 import com.hackaton.prototipopplication.Plantacao;
 import com.hackaton.prototipopplication.R;
@@ -129,5 +131,8 @@ public class HomeFragment extends Fragment {
         rootview=inflater.inflate(R.layout.fragment_home, container, false);
         return rootview;
     }
+
+
+
 
 }

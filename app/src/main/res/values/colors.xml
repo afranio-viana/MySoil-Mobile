@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="background_color">#32BE6D</color>
     <color name="top_bar">#FFFFFF</color>
+    <color name="news_background">#EAEAEA</color>
 </resources>

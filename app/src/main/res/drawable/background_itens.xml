@@ -8,9 +8,9 @@
         android:endColor="@color/background_color" />
 
     <corners
-        android:topLeftRadius="150dp"
-        android:topRightRadius="150dp"
-        android:bottomLeftRadius="150dp"
-        android:bottomRightRadius="150dp" />
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp" />
 
 </shape>
