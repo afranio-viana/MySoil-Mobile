@@ -20,3 +20,7 @@
 <br>
 
 🖼️ Se desejar, você pode conhecer um pouco mais da nossa aplicação acessando nosso [Figma](https://www.figma.com/file/w3f1DIFmEzEISF0AnVmdBm/Untitled?type=design&node-id=0%3A1&mode=design&t=smwVFfcDIABbUEdi-1).
+
+🎥 [Aqui](https://youtu.be/YNxG1QJPtGQ) você pode conferir um pitch sobre nosse projeto.
+
+🎥 E aqui um pequeno vídeo com o que já foi construído da aplicação [aqui](https://www.youtube.com/shorts/QBbRV8L8pQw).
